@@ -6,6 +6,7 @@ pipeline {
         echo 'This is the $BUILD_NUMBER of demo $DEMO'
         echo '"This is the $BUILD_NUMBER of demo $DEMO"'
         echo '\'This is the $BUILD_NUMBER of demo $DEMO\''
+        echo 'printenv'
       }
     }
 
